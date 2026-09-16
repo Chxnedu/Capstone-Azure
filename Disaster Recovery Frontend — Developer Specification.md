@@ -990,24 +990,6 @@ The critical polling requirement is the **recovery status page after approval**.
 
 ---
 
-# 34. Power BI Boundary
-
-Power BI is separate from this frontend approval flow.
-
-Power BI is intended for:
-
-```text
-Observability
-Reporting
-Operational visualization
-```
-
-It does not control infrastructure or replace the approval UI.
-
-Do not build Power BI control actions into the frontend.
-
----
-
 # 35. Frontend Testing
 
 The frontend developer should test:
